@@ -4,6 +4,7 @@ body{
     background-color: 	#212429;
     font-family: "Montserrat", sans-serif;
 }
+/* ===============================navbar========================= */
 .nav{
     width: 100%;
     position:sticky;
@@ -15,6 +16,9 @@ body{
     background-color: #373a3d;
     color: #a9afb8;
 }
+/* =========================navbar end====================================== */
+/* ========================Hero Setion====================================== */
+
 .heroSec{
     margin-top: 75px;
 }
@@ -40,6 +44,9 @@ body{
     text-decoration: none;
     color: #c8cbd1;
 }
+/* ========================Hero Setion end====================================== */
+/* ========================About Setion====================================== */
+
 .about{
     padding: 125px 25px;
 }
@@ -72,6 +79,9 @@ body{
     border-bottom: 2px solid;
     border-radius: 1px;
 }
+/* ========================About Setion end====================================== */
+/* ========================Work Setion====================================== */
+
 .work{
     padding: 25px 25px;
 }
@@ -86,7 +96,7 @@ body{
     margin: 25px 0 50px;
 }
 .card{
-    margin-top: 50px;
+    margin-top: 150px;
     background-color: #343b42;
 }
 .card-title{
@@ -105,6 +115,9 @@ body{
     text-decoration: none;
     color: #a9afb8;
 }
+/* ========================Work Setion end====================================== */
+/* ========================Skills Setion====================================== */
+
 .skill{
     padding-top: 125px;
 }
@@ -130,6 +143,9 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
 }
+/* ========================Skills Setion end====================================== */
+/* ========================Contact Setion====================================== */
+
 .contact{
     padding-top: 125px;
 }

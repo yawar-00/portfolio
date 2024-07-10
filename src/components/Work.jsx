@@ -13,7 +13,7 @@ const Work = () => {
             </div>
             <p className='work-p'>Developed and deployed two websites on Vercel, utilizing modern web technologies such as HTML, CSS, JavaScript, and React.Designed user-friendly interfaces and ensured responsive design across various devices.</p>
             <Container>
-                <Row>
+            <Row>
                     <Col md={6}>
                         <center>
                             <Card className='card' style={{ width: '18rem' }}>
@@ -39,6 +39,41 @@ const Work = () => {
                                         <span>HTML</span>
                                         <span>CSS</span>
                                         <span>JS</span>
+                                    </Card.Text>
+                                    <Button variant="secondary" className='button-common'><a target="_blank" href="https://appleyawar.vercel.app/">Visit</a></Button>
+                                </Card.Body>
+                            </Card>
+                        </center>
+                    </Col>
+
+                </Row>
+                <Row >
+                    <Col md={6}>
+                        <center>
+                            <Card className='card' style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src="public/images/card3.jpg" />
+                                <Card.Body >
+                                    <Card.Title className='card-title'>Amazon Clone</Card.Title>
+                                    <Card.Text>
+                                        <span>HTML</span>
+                                        <span>CSS</span>
+                                    </Card.Text>
+                                    <Button variant="secondary" className='button-common'><a target="_blank" href="https://amazon-clone-six-ruddy.vercel.app/">Visit</a></Button>
+                                </Card.Body>
+                            </Card>
+                        </center>
+                    </Col>
+                    <Col md={6}>
+                        <center>
+                            <Card className='card' style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src="public/images/card4.jpg" />
+                                <Card.Body >
+                                    <Card.Title className='card-title'>Admin Dashboard</Card.Title>
+                                    <Card.Text>
+                                        <span>HTML</span>
+                                        <span>CSS</span>
+                                        <span>JS</span>
+                                        <span>JSON</span>
                                     </Card.Text>
                                     <Button variant="secondary" className='button-common'><a target="_blank" href="https://appleyawar.vercel.app/">Visit</a></Button>
                                 </Card.Body>
