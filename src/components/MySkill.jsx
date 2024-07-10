@@ -6,7 +6,7 @@ const MySkill = () => {
     return (
         <Container className="skill" id='Myskill'>
             <div style={{ display: "flex", marginBottom: "100px" }}>
-                <h1>my skills</h1>
+                <h1>My Skills</h1>
                 <div className='line' style={{ width: "76%" }}></div>
             </div>
             <Container>

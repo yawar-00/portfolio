@@ -8,7 +8,7 @@ const Work = () => {
     return (
         <Container className="work" id='Work'>
             <div style={{ display: "flex"}}>
-                <h1>work</h1>
+                <h1>Work</h1>
                 <div className='line'></div>
             </div>
             <p className='work-p'>Developed and deployed two websites on Vercel, utilizing modern web technologies such as HTML, CSS, JavaScript, and React.Designed user-friendly interfaces and ensured responsive design across various devices.</p>
