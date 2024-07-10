@@ -14,10 +14,10 @@ const Contact = () => {
                     <input type="text" /><br />
                     <h6>EMAIL</h6>
                     <input type="email" /><br />
-                    <h5>We'll never share your email with anyone else.</h5>
+                    <h6 style={{marginTop:"-45px" ,marginBottom:"50px",fontSize:"10px"}}>We'll never share your email with anyone else.</h6>
                     <h6>MESSAGE</h6>
                     <textarea className='message'></textarea><br />
-                   <center> <button className='formButton'>Send Message</button></center>
+                   <center> <button className='formButton'>SEND MESSAGE</button></center>
                 </form>
             </div>
         </Container>
