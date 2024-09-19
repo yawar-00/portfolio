@@ -17,7 +17,7 @@ const Work = () => {
                     <Col md={6}>
                         <center>
                             <Card className='card' style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="public/images/card1.jpg" />
+                                <Card.Img variant="top" src="images/card1.jpg" />
                                 <Card.Body >
                                     <Card.Title className='card-title'>Designed Portfolio</Card.Title>
                                     <Card.Text>
@@ -32,7 +32,7 @@ const Work = () => {
                     <Col md={6}>
                         <center>
                             <Card className='card' style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="public/images/card2.jpg" />
+                                <Card.Img variant="top" src="images/card2.jpg" />
                                 <Card.Body >
                                     <Card.Title className='card-title'>Apple Website Clone</Card.Title>
                                     <Card.Text>
@@ -51,7 +51,7 @@ const Work = () => {
                     <Col md={6}>
                         <center>
                             <Card className='card' style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="public/images/card3.jpg" />
+                                <Card.Img variant="top" src="images/card3.jpg" />
                                 <Card.Body >
                                     <Card.Title className='card-title'>Amazon Clone</Card.Title>
                                     <Card.Text>
@@ -66,7 +66,7 @@ const Work = () => {
                     <Col md={6}>
                         <center>
                             <Card className='card' style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="public/images/card4.jpg" />
+                                <Card.Img variant="top" src="images/card4.jpg" />
                                 <Card.Body >
                                     <Card.Title className='card-title'>Admin Dashboard</Card.Title>
                                     <Card.Text>
