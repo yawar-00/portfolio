@@ -19,7 +19,7 @@ const Header = () => {
                             <Nav.Link href="#Work">Work</Nav.Link>
                             <Nav.Link href="#Contact">Contact</Nav.Link>
                         </Nav>
-                        <Button variant="secondary" href="public/Yawar_Resume.pdf"download className='button-common' style={{ border: "none"}}>Download CV</Button>
+                        <Button variant="secondary" href="public/Yawar_Resume.pdf" download className='button-common' style={{ border: "none"}}>Download CV</Button>
                     </Navbar.Collapse>
                     
                 </Container>

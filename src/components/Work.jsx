@@ -11,7 +11,7 @@ const Work = () => {
                 <h1>Work</h1>
                 <div className='line'></div>
             </div>
-            <p className='work-p'>Developed and deployed two websites on Vercel, utilizing modern web technologies such as HTML, CSS, JavaScript, and React.Designed user-friendly interfaces and ensured responsive design across various devices.</p>
+            <p className='work-p'>Developed and deployed multiple websites on Vercel, utilizing modern web technologies such as HTML, CSS, JavaScript, and React.Designed user-friendly interfaces and ensured responsive design across various devices.</p>
             <Container>
             <Row>
                     <Col md={6}>
