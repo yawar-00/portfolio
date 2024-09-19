@@ -8,7 +8,7 @@ body{
 /* ===============================navbar========================= */
 .nav{
     width: 100%;
-    position:sticky;
+    position:fixed;
     top: 0px;
     z-index: 100;
 }
@@ -64,10 +64,12 @@ body{
     margin-left: 50px;
     margin-top: 20px;
 }
-.about p{
+
+.about-p{
     padding-left: 12rem;
     color: #c8cbd1;
 }
+
 .about-div h2{
     color: #c8cbd1;
     font-weight: 700;
@@ -155,7 +157,7 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
 }
-.contact p{
+.contact-p{
     padding-left: 12rem;
     margin: 50px 2.5rem 100px 7rem;
     font-size: 16px;
@@ -202,3 +204,17 @@ body{
    font-family: "Poppins", sans-serif;
     border-bottom: 2px solid #c8cbd1;
 }
+
+
+@media screen and (max-width: 431px) {
+    .heroSec{
+        margin-top: 50px;
+    }
+    .about-p,
+    .work-p,
+     .contact-p {
+        padding-left: 4.5rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+  }

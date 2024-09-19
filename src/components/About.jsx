@@ -9,7 +9,7 @@ const About = () => {
                 <h1>About</h1>
                 <div className='line'></div>
             </div>
-            <p>I am seeking an internship that provides opportunities for technical development and allows me to contribute effectively to the organization. I aim to apply and expand my skills in a dynamic environment, working collaboratively to drive innovative solutions. This internship will enhance my technical competencies and prepare me for a successful career.</p>
+            <p className='about-p'>I am seeking an internship that provides opportunities for technical development and allows me to contribute effectively to the organization. I aim to apply and expand my skills in a dynamic environment, working collaboratively to drive innovative solutions. This internship will enhance my technical competencies and prepare me for a successful career.</p>
             <Container>
                 <Row>
                     <Col md={6} style={{marginTop:"75px"}}>

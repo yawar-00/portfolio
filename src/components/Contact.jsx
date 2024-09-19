@@ -28,7 +28,7 @@ const Contact = () => {
                 <h1>Contact Me</h1>
                 <div className='line' style={{ width: "71%" }}></div>
             </div>
-            <p>I would love to hear about your project and how I can help. Please fill in the form, and l'll get back to you as soon as possible.</p>
+            <p className='contact-p'>I would love to hear about your project and how I can help. Please fill in the form, and l'll get back to you as soon as possible.</p>
             <div className='form-div'>
                 <form ref={form} onSubmit={sendEmail}>
                     <h6>NAME</h6>
