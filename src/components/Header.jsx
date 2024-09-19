@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 const Header = () => {
     return (
-        <>href="./resume.jpg"download
+        <>
 
             <Navbar  collapseOnSelect expand="lg" className='bg-dark ml-auto nav' data-bs-theme="dark">
                 <Container className=''>
@@ -19,7 +19,7 @@ const Header = () => {
                             <Nav.Link href="#Work">Work</Nav.Link>
                             <Nav.Link href="#Contact">Contact</Nav.Link>
                         </Nav>
-                        <Button variant="secondary" href="resume/Yawar_Resume.pdf" download className='button-common' style={{ border: "none"}}>Download CV</Button>
+                        <Button variant="secondary" href="/Yawar_Resume.pdf" download="Resume.pdf" className='button-common' style={{ border: "none"}}>Download CV</Button>
                     </Navbar.Collapse>
                     
                 </Container>
