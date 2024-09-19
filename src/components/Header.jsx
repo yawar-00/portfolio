@@ -9,7 +9,7 @@ const Header = () => {
             <Navbar  collapseOnSelect expand="lg" className='bg-dark ml-auto nav' data-bs-theme="dark">
                 <Container className=''>
                     <Navbar.Brand href="#">
-                        <img src="public/images/logo.png" style={{ width: "150px", height: "50px", marginLeft:"-25px"}} />
+                        <img src="/images/logo.png" style={{ width: "150px", height: "50px", marginLeft:"-25px"}} />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" >
