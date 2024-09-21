@@ -14,7 +14,7 @@ const HeroSec=()=>{
           </Col>
           <Col md={6}>
             <center>
-            <Image src="images/avatar.jpg" height="450px" width="auto" rounded />
+            <Image className='avatar' src="images/avatar.jpg" height="450px" width="auto" rounded />
             </center>
           </Col>
         </Row>

@@ -1,12 +1,18 @@
 import Container from 'react-bootstrap/Container';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { message } from "antd";
 const Contact = () => {
+    const [isDisabled, setIsDisabled] = useState(false);
+
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setIsDisabled(true);
+        setTimeout(() => {
+            setIsDisabled(false);
+        }, 2200);
 
         emailjs
             .sendForm('service_96e0x1j', 'template_nicbzpf', form.current, {
@@ -38,7 +44,7 @@ const Contact = () => {
                     <h6 style={{ marginTop: "-45px", marginBottom: "50px", fontSize: "10px" }}>We'll never share your email with anyone else.</h6>
                     <h6>MESSAGE</h6>
                     <textarea className='message' name="message"></textarea><br />
-                    <center> <button className='formButton' type="submit">SEND MESSAGE</button></center>
+                    <center> <button className='formButton' type="submit" disabled={isDisabled}>SEND MESSAGE</button></center>
                 </form>
             </div>
         </Container>
